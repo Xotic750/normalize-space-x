@@ -28,7 +28,7 @@ whitespace characters by a single space, and returns the resulting string.
 
 Requires ES3 or above.
 
-**Version**: 1.1.0  
+**Version**: 1.1.1  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
@@ -50,5 +50,5 @@ and returns the resulting string.
 ```js
 var trimRight = require('normalize-space-x');
 
-normalizeSpace(' \t\na \t\nb \t\n) === 'a b'; // true
+normalizeSpace(' \t\na \t\nb \t\n') === 'a b'; // true
 ```

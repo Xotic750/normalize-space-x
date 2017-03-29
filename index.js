@@ -27,7 +27,7 @@
  *
  * Requires ES3 or above.
  *
- * @version 1.1.0
+ * @version 1.1.1
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -57,7 +57,7 @@
    * @example
    * var trimRight = require('normalize-space-x');
    *
-   * normalizeSpace(' \t\na \t\nb \t\n) === 'a b'; // true
+   * normalizeSpace(' \t\na \t\nb \t\n') === 'a b'; // true
    */
   module.exports = function normalizeSpace(string) {
     return trim($toString(string).replace(reNormalize, ' '));

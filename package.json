@@ -1,6 +1,6 @@
 {
   "name": "normalize-space-x",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Strips leading and trailing white-space from a string, replaces sequences of whitespace characters by a single space, and returns the resulting string.",
   "homepage": "https://github.com/Xotic750/normalize-space-x",
   "author": {
