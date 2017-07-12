@@ -1,34 +1,29 @@
-<a name="module_normalize-space-x"></a>
-
-## normalize-space-x
 <a href="https://travis-ci.org/Xotic750/normalize-space-x"
-title="Travis status">
+   title="Travis status">
 <img
-src="https://travis-ci.org/Xotic750/normalize-space-x.svg?branch=master"
-alt="Travis status" height="18">
+   src="https://travis-ci.org/Xotic750/normalize-space-x.svg?branch=master"
+   alt="Travis status" height="18"/>
 </a>
 <a href="https://david-dm.org/Xotic750/normalize-space-x"
-title="Dependency status">
+   title="Dependency status">
 <img src="https://david-dm.org/Xotic750/normalize-space-x.svg"
-alt="Dependency status" height="18"/>
+   alt="Dependency status" height="18"/>
 </a>
-<a
-href="https://david-dm.org/Xotic750/normalize-space-x#info=devDependencies"
-title="devDependency status">
+<a href="https://david-dm.org/Xotic750/normalize-space-x#info=devDependencies"
+   title="devDependency status">
 <img src="https://david-dm.org/Xotic750/normalize-space-x/dev-status.svg"
-alt="devDependency status" height="18"/>
+   alt="devDependency status" height="18"/>
 </a>
 <a href="https://badge.fury.io/js/normalize-space-x" title="npm version">
 <img src="https://badge.fury.io/js/normalize-space-x.svg"
-alt="npm version" height="18">
+   alt="npm version" height="18"/>
 </a>
+<a name="module_normalize-space-x"></a>
 
-Strips leading and trailing white-space from a string, replaces sequences of
-whitespace characters by a single space, and returns the resulting string.
+## normalize-space-x
+Trims and replaces sequences of whitespace characters by a single space.
 
-Requires ES3 or above.
-
-**Version**: 1.2.0  
+**Version**: 1.3.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
@@ -44,11 +39,11 @@ and returns the resulting string.
 
 | Param | Type | Description |
 | --- | --- | --- |
-| string | <code>String</code> | The string to be normalized. |
+| string | <code>string</code> | The string to be normalized. |
 
 **Example**  
 ```js
-var trimRight = require('normalize-space-x');
+var normalizeSpace = require('normalize-space-x');
 
 normalizeSpace(' \t\na \t\nb \t\n') === 'a b'; // true
 ```
