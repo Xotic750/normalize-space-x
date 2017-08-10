@@ -1,6 +1,6 @@
 /**
  * @file Trims and replaces sequences of whitespace characters by a single space.
- * @version 1.3.1
+ * @version 1.3.2
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
