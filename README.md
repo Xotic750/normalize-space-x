@@ -23,7 +23,7 @@
 ## normalize-space-x
 Trims and replaces sequences of whitespace characters by a single space.
 
-**Version**: 1.3.2  
+**Version**: 1.3.3  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
