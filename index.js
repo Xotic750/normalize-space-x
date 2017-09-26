@@ -1,6 +1,6 @@
 /**
  * @file Trims and replaces sequences of whitespace characters by a single space.
- * @version 1.3.4
+ * @version 2.0.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -20,6 +20,7 @@ var replace = ''.replace;
  * and returns the resulting string.
  *
  * @param {string} string - The string to be normalized.
+ * @throws {TypeError} If string is null or undefined or not coercible.
  * @returns {string} The normalized string.
  * @example
  * var normalizeSpace = require('normalize-space-x');
