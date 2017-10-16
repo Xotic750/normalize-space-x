@@ -1,6 +1,6 @@
 {
   "name": "normalize-space-x",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Trims and replaces sequences of whitespace characters by a single space.",
   "homepage": "https://github.com/Xotic750/normalize-space-x",
   "author": {
@@ -30,8 +30,8 @@
   },
   "dependencies": {
     "cached-constructors-x": "^1.0.0",
-    "trim-x": "^2.0.2",
-    "white-space-x": "^2.0.3"
+    "trim-x": "^3.0.0",
+    "white-space-x": "^3.0.0"
   },
   "devDependencies": {
     "@xotic750/eslint-config-standard-x": "^2.2.1",
