@@ -21,27 +21,16 @@
 <a name="module_normalize-space-x"></a>
 
 ## normalize-space-x
+
 Trims and replaces sequences of whitespace characters by a single space.
 
-**Version**: 3.0.0  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
+- [normalize-space-x](#module_normalize-space-x)
+  - [`.normalizeSpace2016`](#module_normalize-space-x.normalizeSpace2016) ⇒ <code>string</code>
 
-* [normalize-space-x](#module_normalize-space-x)
-    * [`.normalizeSpace`](#module_normalize-space-x.normalizeSpace)
-    * [`.normalizeSpace2016`](#module_normalize-space-x.normalizeSpace2016) ⇒ <code>string</code>
-    * [`.normalizeSpace2018`](#module_normalize-space-x.normalizeSpace2018) ⇒ <code>string</code>
-
-<a name="module_normalize-space-x.normalizeSpace"></a>
-
-### `normalize-space-x.normalizeSpace`
-Reference to normalizeSpace2018.
-
-**Kind**: static property of [<code>normalize-space-x</code>](#module_normalize-space-x)  
 <a name="module_normalize-space-x.normalizeSpace2016"></a>
 
 ### `normalize-space-x.normalizeSpace2016` ⇒ <code>string</code>
+
 This method strips leading and trailing white-space from a string,
 replaces sequences of whitespace characters by a single space,
 and returns the resulting string. (ES2016)
@@ -52,20 +41,22 @@ and returns the resulting string. (ES2016)
 
 - <code>TypeError</code> If string is null or undefined or not coercible.
 
-
-| Param | Type | Description |
-| --- | --- | --- |
+| Param  | Type                | Description                  |
+| ------ | ------------------- | ---------------------------- |
 | string | <code>string</code> | The string to be normalized. |
 
-**Example**  
+**Example**
+
 ```js
-var normalizeSpace = require('normalize-space-x');
+import {normalizeSpace2016} from 'normalize-space-x';
 
-normalizeSpace(' \t\na \t\nb \t\n') === 'a b'; // true
+console.log(normalizeSpace2016(' \t\na \t\nb \t\n') === 'a b'); // true
 ```
-<a name="module_normalize-space-x.normalizeSpace2018"></a>
 
-### `normalize-space-x.normalizeSpace2018` ⇒ <code>string</code>
+<a name="module_normalize-space-x"></a>
+
+### `normalize-space-x` ⇒ <code>string</code>
+
 This method strips leading and trailing white-space from a string,
 replaces sequences of whitespace characters by a single space,
 and returns the resulting string. (ES2018)
@@ -76,14 +67,14 @@ and returns the resulting string. (ES2018)
 
 - <code>TypeError</code> If string is null or undefined or not coercible.
 
-
-| Param | Type | Description |
-| --- | --- | --- |
+| Param  | Type                | Description                  |
+| ------ | ------------------- | ---------------------------- |
 | string | <code>string</code> | The string to be normalized. |
 
-**Example**  
-```js
-var normalizeSpace = require('normalize-space-x');
+**Example**
 
-normalizeSpace(' \t\na \t\nb \t\n') === 'a b'; // true
+```js
+import normalizeSpace from 'normalize-space-x';
+
+console.log(normalizeSpace(' \t\na \t\nb \t\n') === 'a b'); // true
 ```
