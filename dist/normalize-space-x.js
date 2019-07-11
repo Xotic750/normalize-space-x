@@ -1,13 +1,13 @@
 /*!
 {
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-10T23:24:03.407Z",
+  "date": "2019-07-11T07:32:18.934Z",
   "describe": "",
   "description": "Trims and replaces sequences of whitespace characters by a single space.",
   "file": "normalize-space-x.js",
   "hash": "cf387dc7d14ab482d5a2",
   "license": "MIT",
-  "version": "4.0.0"
+  "version": "4.0.1"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
