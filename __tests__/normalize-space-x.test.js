@@ -1,7 +1,6 @@
 import noop from 'lodash/noop';
 import normalizeSpace, {normalizeSpace2016} from 'src/normalize-space-x';
 
-/* eslint-disable-next-line compat/compat */
 const hasSymbol = typeof Symbol === 'function' && typeof Symbol('') === 'symbol';
 const ifSymbolIt = hasSymbol ? it : xit;
 
@@ -36,7 +35,6 @@ describe('normalizeSpace', function() {
       }).toThrowErrorMatchingSnapshot();
 
       expect(function() {
-        /* eslint-disable-next-line no-void */
         normalizeSpace(void 0);
       }).toThrowErrorMatchingSnapshot();
 
@@ -77,7 +75,7 @@ describe('normalizeSpace', function() {
 
     ifSymbolIt('should throw for Symbol', function() {
       expect.assertions(2);
-      /* eslint-disable-next-line compat/compat */
+
       const sym = Symbol('foo');
       expect(function() {
         normalizeSpace2016(sym);
@@ -98,7 +96,6 @@ describe('normalizeSpace', function() {
       }).toThrowErrorMatchingSnapshot();
 
       expect(function() {
-        /* eslint-disable-next-line no-void */
         normalizeSpace(void 0);
       }).toThrowErrorMatchingSnapshot();
 
@@ -139,7 +136,7 @@ describe('normalizeSpace', function() {
 
     ifSymbolIt('should throw for Symbol', function() {
       expect.assertions(2);
-      /* eslint-disable-next-line compat/compat */
+
       const sym = Symbol('foo');
       expect(function() {
         normalizeSpace(sym);
