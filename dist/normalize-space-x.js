@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-16T10:20:34.151Z",
+  "date": "2019-07-16T12:15:45.522Z",
   "describe": "",
   "description": "Trims and replaces sequences of whitespace characters by a single space.",
   "file": "normalize-space-x.js",
   "hash": "e8e70b1c1a798e7c94a7",
   "license": "MIT",
-  "version": "4.0.18"
+  "version": "4.0.19"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
