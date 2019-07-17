@@ -27,8 +27,10 @@ export function normalizeSpace2016(string) {
  * @throws {TypeError} If string is null or undefined or not coercible.
  */
 
-export default function normalizeSpace2018(string) {
+var normalizeSpace2018 = function normalizeSpace2018(string) {
   return replace.call(trim(string), reNormalize2018, SPACE);
-}
+};
+
+export default normalizeSpace2018;
 
 //# sourceMappingURL=normalize-space-x.esm.js.map
