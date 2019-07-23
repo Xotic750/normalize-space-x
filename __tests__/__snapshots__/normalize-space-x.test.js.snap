@@ -11,15 +11,3 @@ exports[`normalizeSpace normalizeSpace should throw when target is null or undef
 exports[`normalizeSpace normalizeSpace should throw when target is null or undefined 2`] = `"Cannot call method on undefined"`;
 
 exports[`normalizeSpace normalizeSpace should throw when target is null or undefined 3`] = `"Cannot call method on null"`;
-
-exports[`normalizeSpace normalizeSpace2016 should throw for Object.create(null) 1`] = `"Cannot convert object to primitive value"`;
-
-exports[`normalizeSpace normalizeSpace2016 should throw for Symbol 1`] = `"Cannot convert a Symbol value to a string"`;
-
-exports[`normalizeSpace normalizeSpace2016 should throw for Symbol 2`] = `"Cannot convert a Symbol value to a string"`;
-
-exports[`normalizeSpace normalizeSpace2016 should throw when target is null or undefined 1`] = `"Cannot call method on undefined"`;
-
-exports[`normalizeSpace normalizeSpace2016 should throw when target is null or undefined 2`] = `"Cannot call method on undefined"`;
-
-exports[`normalizeSpace normalizeSpace2016 should throw when target is null or undefined 3`] = `"Cannot call method on null"`;
