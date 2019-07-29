@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-29T18:48:14.327Z",
+  "date": "2019-07-29T21:46:54.949Z",
   "describe": "",
   "description": "Trims and replaces sequences of whitespace characters by a single space.",
   "file": "normalize-space-x.js",
