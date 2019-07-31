@@ -1,6 +1,6 @@
 {
   "name": "normalize-space-x",
-  "version": "4.0.37",
+  "version": "4.0.38",
   "description": "Trims and replaces sequences of whitespace characters by a single space.",
   "homepage": "https://github.com/Xotic750/normalize-space-x",
   "author": {
@@ -50,8 +50,8 @@
     "url": "https://github.com/Xotic750/normalize-space-x/issues"
   },
   "dependencies": {
-    "trim-x": "^4.0.26",
-    "white-space-x": "^4.0.23"
+    "trim-x": "^4.0.27",
+    "white-space-x": "^4.0.24"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -63,7 +63,7 @@
     "@babel/runtime": "^7.5.5",
     "@types/jest": "^24.0.16",
     "@types/node": "^12.6.8",
-    "@xotic750/eslint-config-recommended": "^1.0.4",
+    "@xotic750/eslint-config-recommended": "^1.0.5",
     "babel-core": "^7.0.0-0",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
