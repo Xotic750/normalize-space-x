@@ -1,10 +1,11 @@
 import trim from 'trim-x';
 import whiteSpace from 'white-space-x';
+import methodize from 'simple-methodize-x';
 
 const SPACE = ' ';
 const RegExpCtr = /none/.constructor;
-const reNormalize2018 = new RegExpCtr(`[${whiteSpace}]+`, 'g');
-const {replace} = SPACE;
+const reNormalize = new RegExpCtr(`[${whiteSpace}]+`, 'g');
+const methodizedReplace = methodize(SPACE.replace);
 
 /**
  * This method strips leading and trailing white-space from a string,
@@ -15,7 +16,7 @@ const {replace} = SPACE;
  * @throws {TypeError} If string is null or undefined or not coercible.
  */
 const normalizeSpace = function normalizeSpace(string) {
-  return replace.call(trim(string), reNormalize2018, SPACE);
+  return methodizedReplace(trim(string), reNormalize, SPACE);
 };
 
 export default normalizeSpace;

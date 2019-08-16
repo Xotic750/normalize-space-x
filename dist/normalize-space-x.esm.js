@@ -1,9 +1,10 @@
 import trim from 'trim-x';
 import whiteSpace from 'white-space-x';
+import methodize from 'simple-methodize-x';
 var SPACE = ' ';
 var RegExpCtr = /none/.constructor;
-var reNormalize2018 = new RegExpCtr("[".concat(whiteSpace, "]+"), 'g');
-var replace = SPACE.replace;
+var reNormalize = new RegExpCtr("[".concat(whiteSpace, "]+"), 'g');
+var methodizedReplace = methodize(SPACE.replace);
 /**
  * This method strips leading and trailing white-space from a string,
  * replaces sequences of whitespace characters by a single space,
@@ -14,7 +15,7 @@ var replace = SPACE.replace;
  */
 
 var normalizeSpace = function normalizeSpace(string) {
-  return replace.call(trim(string), reNormalize2018, SPACE);
+  return methodizedReplace(trim(string), reNormalize, SPACE);
 };
 
 export default normalizeSpace;
